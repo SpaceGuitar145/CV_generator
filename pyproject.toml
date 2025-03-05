@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "pyqt_app"
+version = "0.1.0"
+description = "PyQt6 Boilerplate"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyqt6 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

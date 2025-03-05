@@ -1,0 +1,42 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# PyQt compiled UI and resource files
+*.qmlc
+*.qrc
+*.rcc
+*.qtdesigner
+*.ui.py  # If UI files are converted to Python
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled Cython files
+*.so
+*.c
+*.cpp
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Poetry and pip dependencies
+poetry.lock
+pip-log.txt
